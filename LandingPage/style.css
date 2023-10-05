@@ -27,10 +27,10 @@ body{
     font-size: 20px;
 }
 #container{
-    height: 600px;
+    height: 700px;
     background: url("https://media.istockphoto.com/id/1473399467/photo/salesman-showing-cars-to-a-couple-at-the-dealership.jpg?s=1024x1024&w=is&k=20&c=8D-Z1vVqoMvX4r7UPJILhB_BQZGYOUZ5l_KcF-BkpSk=") no-repeat center/cover ;
     padding:0;
-    opacity: 0.8;
+   
 
 }
 #inner{
@@ -61,4 +61,13 @@ body{
     font-weight: bolder;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
+}
+#bottom{
+    background-color: ;
+    height: 80px;
+    width: 100%;
+}
+#bottom img{
+    height: 50px;
+    width: 50px;
 }
