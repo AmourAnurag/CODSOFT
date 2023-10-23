@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<!-- ******HTML AND JAVASCRIPT BOTH ARE WRITTEN IN THIS FILE THERE IS NO SEPERATE FILE FOR JAVASCRIPT****** -->
+
+
+<body>
+    
+    <div class="container">
+        
+        <div class="calculator">
+            <h1>Amour's Calculator</h1>
+            <div class="display">
+
+                <input type="text" name="display" id="dis">
+            </div>
+            <div>
+                <input type="button" value="AC" id="color" onclick="dis.value = ''">
+                <input type="button" value="DE" id="color" onclick="dis.value=String(dis.value).slice(0,-1)">
+                <input type="button" value="." id="color" onclick="dis.value +='.'">
+                <input type="button" value="/" id="color" onclick="dis.value +='/'">
+            </div>
+
+            <div>
+                <input type="button" value="7"  id="col"  onclick="dis.value +='7'">
+                <input type="button" value="8" onclick="dis.value +='8'">
+                <input type="button" value="9" id="col"   onclick="dis.value +='9'">
+                <input type="button" value="X" id="color" onclick="dis.value +='*'">
+            </div>
+            <div>
+                <input type="button" value="4" onclick="dis.value +='4'">
+                <input type="button" value="5" id="col"   onclick="dis.value +='5'">
+                <input type="button" value="6" onclick="dis.value +='6'">
+                <input type="button" value="-" id="color" onclick="dis.value +='-'">
+            </div>
+
+            <div>
+                <input type="button" value="1" id="col"   onclick="dis.value +='1'">
+                <input type="button" value="2" onclick="dis.value +='2'">
+                <input type="button" value="3" id="col"   onclick="dis.value +='3'">
+                <input type="button" value="+" id="color" onclick="dis.value +='+'">
+            </div>
+            <div>
+                <input type="button" value="00" onclick="dis.value +='00'">
+                <input type="button" value="0"  id="col"  onclick="dis.value +='0'  
+                    
+                
+                    
+                ">
+                <input type="button" value="Sq" onclick="{let v=dis.value;
+                    dis.value='0';
+                    dis.value=v*v}">
+                <input type="button" value="=" id="color" onclick="dis.value=eval(String(dis.value))">
+
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
